@@ -65,4 +65,3 @@ class Rectangle:
         """prints a string when an instance has been deleted"""
         print("Bye rectangle...")
 
-
