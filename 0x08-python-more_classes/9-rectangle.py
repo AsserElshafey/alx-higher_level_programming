@@ -14,6 +14,7 @@ class Rectangle:
         """Initializes the rectangle"""
         self.height = height
         self.width = width
+        Rectangle.number_of_instances += 1
 
     @property
     def width(self):
@@ -28,7 +29,6 @@ class Rectangle:
         if value < 0:
             raise ValueError("width must be >= 0")
         self.__width = value
-        Rectangle.number_of_instances += 1
 
     @property
     def height(self):
