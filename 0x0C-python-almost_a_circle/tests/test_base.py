@@ -7,8 +7,6 @@ Unittest classes:
     TestBase_from_json_string - line 234
     TestBase_create - line 288
     TestBase_load_from_file - line 340
-    TestBase_save_to_file_csv - line 406
-    TestBase_load_from_file_csv - line 484
 """
 import os
 import unittest
