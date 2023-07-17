@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 """Defines a base model class."""
+
 import json
 import csv
 import turtle
@@ -61,7 +62,7 @@ class Base:
         if json_string is None or json_string == "[]":
             return []
         return json.loads(json_string)
-        
+
     @classmethod
     def create(cls, **dictionary):
         """Return a class instantied from a dictionary of attributes.
