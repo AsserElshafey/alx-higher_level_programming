@@ -1,7 +1,7 @@
 #!/usr/bin/node
-let firstArg = process.argv[2];
+const firstArg = process.argv[2];
 
-let num = parseInt(firstArg);
+const num = parseInt(firstArg);
 
 if (isNaN(num)) {
   console.log('Not a number');
