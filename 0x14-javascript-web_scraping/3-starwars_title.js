@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // Getting title of a starwars movie
 
-const request = require("request");
+const request = require('request');
 const argv = process.argv;
 
 request(

@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // counting number of movies that a character appeared in
 
-const request = require("request");
+const request = require('request');
 const id = process.argv[2];
 
 const url = `https://swapi-api.alx-tools.com/api/films/${id}`;

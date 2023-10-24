@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // obtaining number of tasks completed by users
 
-const request = require("request");
+const request = require('request');
 const url = process.argv[2];
 
 const tasksByUser = {};

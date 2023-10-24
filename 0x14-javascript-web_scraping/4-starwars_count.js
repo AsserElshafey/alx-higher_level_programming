@@ -1,7 +1,7 @@
 #!/usr/bin/node
 // counting number of movies that a character appeared in
 
-const request = require("request");
+const request = require('request');
 const url = process.argv[2];
 let count = 0;
 const id = 18;
